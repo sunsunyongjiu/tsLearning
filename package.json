@@ -1,0 +1,14 @@
+{
+  "name": "tslearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -w &",
+    "server": "live-server --host=localhost --port=8888",
+    "start": "npm run test && npm run server"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
